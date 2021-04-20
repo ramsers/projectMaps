@@ -5,8 +5,6 @@ const matchedProjectsRoute = require('./routes/matchedProjects');
 const ongoingProjectsRoute = require('./routes/ongoingProjects');
 const completedProjectsRoute = require('./routes/completedProjects');
 
-// require('dotenv').config();
-
 const port = process.env.PORT || 3000
 
 app.get('/api', (req, res) => {
